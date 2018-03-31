@@ -38,7 +38,7 @@ public class MathCalculator extends CordovaPlugin {
             }
         }
         else {
-            callback.error("Something went wrong " + e);
+            callback.error("Something went wrong");
         }
     }
 
@@ -55,7 +55,7 @@ public class MathCalculator extends CordovaPlugin {
             }
         }
         else {
-            callback.error("Something went wrong " + e);
+            callback.error("Something went wrong");
         }
     }
 }
