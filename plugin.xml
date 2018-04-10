@@ -12,11 +12,11 @@
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="MathCalculator">
-                <param name="android-package" value="cordova.plugin.mathcalculator.MathCalculator" />
+                <param name="android-package" value="com.dylee.plugin.mathcalculator.MathCalculator" />
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml" />
-        <source-file src="src/android/MathCalculator.java" target-dir="src/cordova/plugin/mathcalculator/MathCalculator" />
+        <source-file src="src/android/MathCalculator.java" target-dir="src/com/dylee/plugin/mathcalculator" />
     </platform>
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
